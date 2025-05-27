@@ -1,5 +1,5 @@
 import streamlit as st
-from app.chatbot import agente_memoria
+from chatbot import agente_memoria
 
 st.set_page_config(page_title="Chatbot Gemini + Wikipedia", layout="centered")
 
