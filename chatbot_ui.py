@@ -14,7 +14,7 @@ if "historial" not in st.session_state:
 pregunta = st.text_input("Tu pregunta:", "")
 
 if st.button("Enviar") and pregunta.strip():
-    respuesta = agente_memoria.invoke({"input": pregunta})
+    respuesta = agente_memoria.run(pregunta)
     st.session_state.historial.append(("🧑‍🎓 Tú", pregunta))
     st.session_state.historial.append(("🤖 Bot", respuesta))
 
