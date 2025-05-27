@@ -1,7 +1,6 @@
-fastapi
-uvicorn
+streamlit
 langchain
 langchain-community
-google-generativeai
+openai
 wikipedia
 python-dotenv
